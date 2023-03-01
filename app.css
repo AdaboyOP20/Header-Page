@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+.navbar {
+    background-color: tomato;
+}
+
+.jumbotron {
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url("bg.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.btn {
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 50px;
+    width: 200px;
+}
+
+.btn:hover {
+    color: tomato;
+    border: 2px solid tomato;
+}
